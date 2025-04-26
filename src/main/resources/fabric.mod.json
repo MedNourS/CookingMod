@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cookingmod",
+	"version": "${version}",
+	"name": "Cooking Mod",
+	"description": "This mod introduces more cooking recipes, food items and equipment to Minecraft!",
+	"authors": [
+		"Mohamed Nour Sabir"
+	],
+	"contact": {
+		"homepage": "https://mednours.github.io/CookingMod/",
+		"sources": "https://github.com/MedNours/CookingMod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cookingmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.mednours.cookingmod.CookingMod"
+		],
+		"fabric-datagen": [
+			"io.mednours.cookingmod.CookingModDataGenerator"
+		],
+		"client": [
+			"io.mednours.cookingmod.CookingModClient"
+		]
+	},
+	"mixins": [
+		"cookingmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

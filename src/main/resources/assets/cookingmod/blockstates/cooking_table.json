@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+        "model": "cookingmod:block/cooking_table"
+    }
+  }
+}

@@ -13,12 +13,20 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     // Items
     public static final Item COOKING_KNIFE = registerItem(
-            "cooking_knife",
-            new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CookingMod.MOD_ID,
-                            "cooking_knife"
-                    )))
-                    // Add properties for the item here
-                    .maxCount(1)
+                "cooking_knife" // Put Name Here
+            , new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CookingMod.MOD_ID,
+                "cooking_knife" // Put Name Here
+            )))
+                // Add properties for the item here
+                .maxCount(1)
+    );
+    public static final Item COOKBOOK = registerItem(
+                "cookbook" // Put Name Here
+            , new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(CookingMod.MOD_ID,
+                "cookbook" // Put Name Here
+            )))
+                // Add properties for the item here
+                .maxCount(1)
     );
 
     // Helper method to register an item

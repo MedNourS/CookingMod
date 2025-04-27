@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "#minecraft:planks",
+    "X": "cookingmod:cookbook"
+  },
+  "pattern": [
+    "#X#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "id": "cookingmod:cooking_table",
+    "count": 1
+  }
+}

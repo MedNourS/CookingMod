@@ -20,6 +20,7 @@ public class ModItemGroups {
                     "itemgroup.cookingmod.cooking_items" // Put Name Here
             )).entries((displayContext, entries) -> {
                 entries.add(ModItems.COOKING_KNIFE); // Add Items or Blocks Here
+                entries.add(ModItems.COOKBOOK);
                 entries.add(ModBlocks.COOKING_TABLE);
             }).build()
     );

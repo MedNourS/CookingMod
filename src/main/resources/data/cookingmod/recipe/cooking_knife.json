@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "X": "minecraft:stick"
+  },
+  "pattern": [
+    " #",
+    " X"
+  ],
+  "result": {
+    "id": "cookingmod:cooking_knife",
+    "count": 1
+  }
+}
